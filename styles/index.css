@@ -1,0 +1,231 @@
+html, body, .page { height: 100% }
+
+/* ========================= */
+/*	Mise en page*/
+/* ======================== */
+body{
+	background:lightgrey;
+	text-align:center;
+	margin: 0;
+	font-family:Arial;
+}
+
+.page {
+	display: table;
+	width: 100%;
+	margin-top:10px;
+}
+
+.site-content,
+.site-footer {
+	display: table-row
+}
+
+.main{
+	min-height: 100%;
+	position: relative;
+}
+
+/* ========================= */
+/*	Styles textes */
+/* ======================== */
+
+h2{
+	margin-top:-5px;	
+}
+
+a, a:hover, a:active, a:visited { color: black; }
+a{text-decoration:none;}
+
+.libelle{
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	margin-top : 15px;
+	margin-bottom : 15px;
+}
+/* ========================= */
+/*	zone des favoris */
+/* ======================== */
+.encadreglobal{
+	text-align:center;
+	float:center;
+   margin: auto;
+   overflow:none;
+   padding-bottom: 100px;
+}
+
+.encadre{
+    border-radius: 10px;
+	background-color:#4771BB ;
+	border:1px solid black;
+    width: 140px;
+    height: 100px;
+	max-width: 150px;
+    max-height: 100px;
+	margin: 0 5 5 5;
+	float:left;
+}
+/* ========================= */
+/*	Footer */
+/* ======================== */
+
+footer{
+	position: absolute;/* point ancrage bas */
+	bottom:0; /* point ancrage bas */
+	left:0; /* point ancrage bas */
+	right:0; /* point ancrage bas */
+	height:80px;
+	width:100%;
+	background: white;
+	font-family:Arial;
+	margin:auto;
+	clear:both;
+	}
+
+.pied_gauche{
+	width: 50%;
+	float: left;
+}
+.pied_droit{
+	width: 50%;
+	float: right;
+}
+
+.retour_accueil{
+	padding-top:10px;
+}
+
+.logo{
+	margin-top:15px;
+	max-width:60px;	
+}
+
+.logoParam{
+	max-width:80px;	
+}
+
+/* ========================= */
+/*	Page des paramètres */
+/* ======================== */
+
+ul li{
+	list-style-type: none;
+}
+
+.li_param{
+	font-size:16px;	
+	color:#ffffff;
+	font-weight:bold;
+	border-radius: 10px;
+	background-color:#4771BB ;
+	border:1px solid black;
+    width: 250px;
+	height:20px;
+	margin: 5 0 0 0;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.inactif{
+	background-color:darkgrey !important ;
+}
+
+/* ========================= */
+/*	Couleur de fond des bus */
+/* ======================== */
+.bus{
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px;
+	background-color:#ff82b4;
+}
+.bus385{
+	background-color:#dc9600;
+	border: 1px solid;
+}
+.bus292{
+	background-color:#ff82b4;
+	border: 1px solid;
+}
+.bus285{
+	background-color:#a0006e;
+	border: 1px solid;
+}
+.tram{
+	background-color:#a0006e;
+	border: 1px solid;
+}
+
+.rerA{
+	background-color:red;
+	border: 1px solid;
+	font-size:16px;
+}
+.rerB{
+	background-color:blue;
+	border: 1px solid;
+	font-size:16px;
+}
+.rerC{
+	background-color: rgb(245, 210, 16);
+	border: 1px solid;	
+	font-size:16px;	
+	font-weight:bold;
+	text-shadow: 0  1px black, 0 1px black, 1px 0 black, 0 1px black;
+}
+.rerD{
+	background-color:green;
+	border: 1px solid;
+	font-size:16px;
+}
+
+.listeRerA{
+	background:red;
+	min-width:30px;
+}
+.listeRerB{
+	background-color:lightblue;
+}
+.listeRerC{
+	background-color: rgb(245, 210, 16);
+}
+.listeRerD{
+	background-color:green;
+}
+
+
+ /* ======================================= */
+/*         RESPONSIVE DESIGN               */
+ /* ======================================= */
+@media (max-width: 600px) {
+.encadre2{
+	 height:  120px !important;
+}
+
+.encadreglobal{
+	max-width:332px !important;
+	float:center;
+    margin: auto;
+}
+
+.encadre{
+    width: 140px;
+    height: 100px;
+}
+
+label, input{
+	display: inline-block; width:70px; 
+	font-size:18px !important;	
+	text-align: center; }​
+}
+label{
+	width:100px;
+}
+
+input{
+	width:150px;
+}
+
+}

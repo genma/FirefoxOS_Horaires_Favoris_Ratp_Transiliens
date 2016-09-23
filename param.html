@@ -1,0 +1,32 @@
+﻿<html><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="./styles/index.css">
+<link rel="icon" href="./favicon.png">
+<!-- Pour le pb du zoom sur le ZTE Open C, ligne en dessous-->
+<meta name="viewport" content="width=device-width, initial-scale=1,25" />
+</head>
+<body>
+<div class="page">
+	<h2>Paramétrage - Choix</h2>
+	<div class="encadreglobal" id="Param">
+		<ul>
+        <a href="./param_create.html" title=""><li class="li_param">Creation</li></a>
+		<a href="./param_modify.html" title=""><li class="li_param">Modification</li></a>
+		<a href="./param_suppress.html" title=""><li class="li_param">Suppression</li></a>
+		<a href="javascript:void(0);" onClick="reinit()"><li class="li_param">Reinit</li></a>
+		<a href="javascript:void(0);" onClick="reset()"><li class="li_param">Reset</li></a>
+		<a href="javascript:void(0);" onClick="backup()"><li class="li_param inactif">Backup</li></a>
+		<a href="javascript:void(0);" onClick="restore()"><li class="li_param inactif">Restore</li></a>
+    </ul>
+	</div>
+<footer  class="site-footer">
+	<a href="./index.html"><div class="retour_accueil">
+	<p>Retour Accueil</p>
+	</div></a>
+</footer>
+</div>
+</body>
+<script type="text/javascript" src="./scripts/jquery-2.1.4.min.js"></script>
+<script src="./scripts/commun.js"></script>
+<script src="./scripts/param_suppress.js"></script>
+</html>
